@@ -1,0 +1,1402 @@
+html {
+    height: 100%;
+    width : 100%;
+    margin : 0;
+    padding : 0;
+    color : white;
+}
+body{
+    /*background-image: url(irokologo.jpg);*/
+    background : black;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height : 100%;
+    width : 100%;
+    padding : 0;
+    margin : 0;
+}
+
+#contact-div{
+    color: white;
+    font-family: "Courier New";
+    padding: 10px;
+}
+
+.col-cust-left {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    padding: 5px;
+}
+
+.col-cust-right {
+    float: none;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+}
+
+.h-divider {
+    margin: 5px 0 15px 0;
+    height : 1px;
+    width : 80px;
+    max-width : 25%;
+    border-top : 2px solid goldenrod;
+    display : inline-block;
+}
+
+#contact-div h3{
+font-size: large;
+}
+
+header {
+    margin : 0;
+    padding:2px 0 0 0;
+    position : fixed;
+    z-index: 44;
+    width : 100%;
+    background-color: rgba(0,0,0,1);
+    height: 3em;
+    /*background-color: rgba(0,0,0,0.1);*/
+}
+
+#page-header {
+    margin : 0 5px;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+
+#page-header #page-logo {
+	width: 100%;
+	display: block;
+	text-align: left;
+}
+
+#page-header #page-logo a{
+    text-decoration: none;
+    color : darkgray;
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bold;
+    margin : 0;
+    padding: 0; 
+    display: inline-block;
+}
+
+#page-header #sub{
+    font-size: small;
+    color : cornsilk;
+    margin : 0;
+}
+#page-header #page-logo a:hover {
+    cursor: pointer;
+    color: gold;
+    box-sizing: border-box;
+}
+
+#maincontent {
+    min-height: 100%;
+    padding-top: 30px;
+    display : block;
+    width : 100%;
+    text-align: center;
+    color : white;
+}
+
+#maincontent p {
+	font-size: medium;
+}
+
+
+
+#works-ul li{
+	text-align: left;
+}
+
+#userform-div-cover {
+	border-radius : 25px;
+	box-shadow : 0px 5px 15px 10px black;
+    background-color: black;
+	display : inline-block;
+	text-align : center;
+	margin : 40px 15px 40px 15px;
+	width: auto;
+	padding: 5px;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+#userform-div-cover p {
+	color: white;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: small;
+}
+
+.custom-userform-div-cover {
+	color: green;
+}
+
+
+
+#cust-info-div label{
+    text-align: left;
+    display: inline-block;
+    width: 300px;
+}
+
+.works-img {
+	width: 25px;
+	height:25px;
+}
+
+#contact-list img {
+	width: 100px;
+	height:100px;
+}
+
+.anim2 {
+    min-height: 4em;
+    height:auto;
+    box-sizing: border-box;
+}
+
+.anim2 li a {
+	display:inline-block;
+	width:100%;
+	padding: 5px;
+}
+
+#wait-img-div {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+#wait-img-div img {
+    display: inline-block;
+    width: 70px;
+    height: auto;
+}
+
+#user-menu {
+    height: 0;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    border-radius: 0 0 0 10px;
+    box-sizing: border-box;
+}
+
+#user-icon{
+    padding: 5px 2px 0 5px;
+    margin: 0;
+    height: 28px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+#title-div h3{
+    font-size: x-large;
+}
+
+#title-div a, #title-div a:hover, #title-div a:active  {
+    text-decoration: none;
+}
+
+
+
+
+#home-poem-read-more {
+    text-decoration: none;
+    color: darkgoldenrod;
+}
+
+#home-poem-read-more:visited {
+    text-decoration: none;
+    color:darkgoldenrod
+}
+
+.userform {
+    margin : 50px 0 0 0;
+    padding : 0;
+    color : white;
+    font-size: medium;
+    font-family: "Courier New";
+}
+
+ .userform #contact-span, #userform-div-cover h3, #userform-div-cover h4  {
+	font-size: medium;
+	font-family: cursive;
+	padding:0 15px 0 15px;
+	margin:0 5px 0 5px;
+	color:darkgoldenrod;
+}
+
+#payment-button-div {
+    width : 100%;
+    display: block;
+    text-align: center;
+    margin-top : 20px;
+}
+
+#paypal-checkout-button {
+    display: inline-block;
+}
+
+#poetry-h4 {
+	font-size: x-large;
+	font-family: cursive;
+	color : white;
+	display : inline-block;
+	margin: 100px 0 50px 0;
+}
+
+#div-poetry-h4 {
+	height:auto;
+	display: block;
+}
+
+.userform .errform{
+	padding:0;
+	margin:0;
+}
+
+.userform .errform ul {
+	text-align: left;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+ .userform .errform ul li{
+	color: red;
+	font-size: x-small;
+	font-family: "Courier New";
+	padding:0;
+	margin:0;
+}
+
+.userform input[type="text"], .userform textarea, .userform input[type="password"], .userform input[type="number"], .rform {
+    outline : none;
+    border: none;
+    border-bottom: solid 2px gold;
+    color: white;
+    background-color: black;
+    width: 300px;
+    padding : 5px;
+    box-sizing: border-box;
+    margin : 5px;
+}
+
+.userform textarea {
+	resize : none;
+}
+
+.userform input[type="submit"], #home-enter-button, #audio-back-button, #home-buy-button, #order-proceed, .custom-button {
+    outline: none;
+    color: white;
+    background-color: darkgoldenrod;
+    border: solid 2px darkgoldenrod;
+    font-size: small;
+    font-family: cursive;
+    border-radius: 10px;
+    padding : 5px;
+    cursor: pointer;
+    margin : 2px;
+    
+}
+
+.userform input[type="submit"]:hover, #home-enter-button:hover,  #audio-back-button:hover, #home-buy-button:hover, #order-proceed:hover, .custom-button:hover {
+	color : darkgoldenrod;
+    background-color: white;
+}
+
+.userform input[type="submit"]:active, #home-enter-button:active,  #audio-back-button:active, #home-buy-button:active, #order-proceed:active, .custom-button:active {
+	color : white;
+    background-color: darkgoldenrod;
+}
+
+.color-bracket {
+	color : gold;
+}
+
+#messagesubmit:hover {
+    color : white;
+    background-color: black;
+}
+
+#messagesubmit:active {
+    color : white;
+    background-color: darkgoldenrod;
+}
+
+
+#loginsubmit:hover {
+    color : white;
+    background-color: black;
+}
+
+#loginsubmit:active {
+    color : white;
+    background-color: darkgoldenrod;
+}
+
+
+.back-image-1 {
+	/*background-image: url(../../resources/images/sonofiroko_2_small.jpg);*/
+    background-color: whitesmoke;
+    color: black;
+}
+
+.poem-back-image {
+	background-image: url(../images/iroke.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.store-back-image {
+	background-image: url(../images/art.jpg);
+    background-size: cover;
+    height : 300px;
+}
+
+.s-slide-div-1 {
+    background-image: url(../images/software.jpg);
+    background-size: cover;
+    height:586px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.s-slide-div-2 {
+    background-image: url(../images/art.jpg);
+    background-size: cover;
+    height:586px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.s-slide-div-3 {
+    background-image: url(../images/dna.jpg);
+    background-size: cover;
+    height:586px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.magic-quote {
+    font-weight: bolder;
+    color: rgb(255,191,0);
+}
+
+#description-div{
+	color: white;
+	padding: 10px;
+	max-width: 400px;
+}
+
+#portfolio-div {
+    color: black;
+    padding: 10px;
+}
+
+#handle {
+    display : none;
+    width: auto;
+    box-sizing: border-box;
+    top:0;
+    left:0;
+    padding: 0;
+    margin: 0;
+    position:absolute;
+}
+
+footer {
+    background-color: black;
+    width : 100%;
+    text-align: center;
+    color: gold;
+    height : 100px;
+    font-size: small;
+}
+
+.product-list-div {
+    display: block;
+    color: black;
+}
+
+.product-list-div > div{
+    width: 100%;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.product-list-div img{
+    width: 200px;
+    height: 200px;
+}
+
+.product-list-div > div ul {
+    list-style-type : none;
+    display: inline-block;
+    width: auto;
+    padding: 0;
+    color: black;
+}
+
+.product-list-div > div ul li {
+    width: auto;
+    margin-bottom: 29px;
+    display: inline-block;
+}
+
+.product-list-div > div div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 240px;
+}
+
+#cart-items-div * a {
+    text-decoration: none;
+    color: black;
+}
+
+#cart-items-div * a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+#cart-items-div * a:active {
+    text-decoration: underline;
+    color: black;
+}
+
+#cart-items-div * a:hover {
+    text-decoration: underline;
+}
+
+#cart-items-div h3 {
+    color: coral;
+}
+
+#cart-items-div {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: medium;
+    color: black;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
+
+#payment-info-div {
+    
+}
+
+#cart-items-div tr,  #payment-info-div tr{
+    width: auto;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#cart-items-div img {
+    width: 100px;
+    height: 100px;
+}
+
+#cart-items-div table tr td, #payment-info-div table tr td, #payment-info-div table tr th {
+    text-align: left;
+    font-family: "Courier New";
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#cart-items-div table tr  {
+    margin-bottom: 10px;
+}
+
+#cart-items-div table, #payment-info-div table {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin : 5px;
+}
+
+#cart-table-head {
+    background-color: gray;
+    font-family: "Courier New";
+    font-size: medium;
+    color: white;
+}
+
+##cart-items-div table th a{
+    font-family: "Courier New";
+    font-size: small;
+    color: black;
+}
+
+#cart-items-div table th a:visited{
+    color: black;
+}
+
+.qty-input {
+    width: 3em;
+}
+
+#cart-total-td {
+    color: darkgreen;
+    font-weight: bold;
+    border-top: solid 2px black;
+    border-bottom: solid 4px goldenrod;
+    padding : 10px;
+}
+
+#audio-search-button {
+	
+	outline: none;
+    color: black;
+    background-color: goldenrod;
+    border: solid 2px goldenrod;
+    font-size: small;
+    font-family: cursive;
+    border-radius: 10px;
+    padding : 2px;
+    cursor: pointer;
+    margin:0;
+}
+
+#audio-search-button:hover {
+	color: white;
+	background-color: black;
+}
+
+#audio-search-button:active {
+	color: white;
+	background-color: darkgoldenrod;
+}
+
+#cover-image {
+	width: 100px;
+	height: 100px;
+}
+
+.audio-list-div, .audio-play-div {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	width: auto;
+	font-size: medium;
+    box-sizing: border-box;
+}
+
+.audio-play-div {
+	margin : 0 15px 15px 15px;
+}
+
+.audio-play-div > div {
+	border-radius : 25px;
+	box-shadow : 0px 5px 15px 10px black;
+	display : inline-block;
+	text-align : center;
+	width: auto;
+	padding: 10px;
+	color : black;
+}
+
+#item-transcript-p {
+	font-family: cursive;
+	overflow-y:auto;
+}
+
+.audio-list-div table * {
+	padding: 5px;
+	margin: 0;
+}
+
+.audio-list-div ul{
+	display : inline-block;
+	list-style-type : none;
+	padding: 0;
+	margin: 0;
+	/* list-style-type : decimal-leading-zero; */
+	text-align: center;
+    box-sizing: border-box;
+}
+
+.audio-list-div ul li{
+	color: black;
+	text-align: left;
+	padding: 5px;
+	box-sizing:border-box;
+	border-radius: 15px;
+	margin: 2px 2px;
+	cursor: pointer;
+	width: 500px;
+	max-width:100%;
+}
+
+.audio-list-div ul li:hover{
+	color: darkgoldenrod;
+	box-shadow : 1px 1px 4px 1px black;
+}
+
+.audio-list-div ul li:nth-child(odd){
+	border: solid 3px rgba(128,128,128,0.5);
+}
+
+.audio-list-div ul li:nth-child(even){
+	border: solid 3px rgba(218,165,32,0.5);
+}
+
+#info-table *{
+	font-size: small;
+    
+}
+
+#audio-stay-bottom {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin: 0;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.section-cover{
+    background-color:whitesmoke;
+    /*min-height:400px;*/
+    display: block;
+    text-align: center;
+}
+#item-controls {
+    width: 100%;
+    display : inline-block;
+}
+#previous-button, #next-button{
+    outline : none;
+    font-size: small;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 0 5px 5px 5px;
+    cursor: pointer;
+}
+
+#previous-button:hover, #next-button:hover{
+    background-color: ghostwhite;
+    
+}
+
+#back-store-button, #proceed-checkout-button {
+    outline : none;
+    font-size: medium;
+    border: 1px solid black;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#back-store-button:hover, #proceed-checkout-button:hover {
+    background-color: white;
+    color: black;
+}
+
+#back-store-button:active, #proceed-checkout-button:active {
+    color: black;
+    background-color: white;
+}
+
+#featured-services-div {
+    background-color: white;
+    width:100%;
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#featured-store-item-div table * {
+    font-size: large;
+}
+
+#featured-store-item-div {
+    text-align: center;
+    width: 100%;
+    display: block;
+    background-color:gainsboro;
+    color : black;
+    font-size: large;
+}
+
+#featured-store-item-div > div{
+    display: inline-block;
+}
+
+#featured-store-item-div img{
+    width: 240px;
+    height: auto;
+}
+
+.magic-button {
+    font-weight: bold;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+    color : white;
+    background-color: rgba(0,0,0,0.5);
+    transition: background-color ease-in-out 0.2s;
+    -moz-transition: background-color ease-in-out 0.2s;
+    -o-transition: background-color ease-in-out 0.2s;
+    -ms-transition: background-color ease-in-out 0.2s;
+    -webkit-transition: background-color ease-in-out 0.2s;
+    padding: 5px;
+    
+}
+
+.magic-button:hover {
+    background-color: rgba(0,0,0,1);
+    color : white;
+}
+
+.magic-button:active {
+    background-color: white;
+    color: black;
+}
+
+#featured-poem-div {
+    width: 100%;
+    margin:0;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+
+#featured-poem-div h4{
+    font-size: large;
+    color: darkgray;
+}
+
+#featured-article-div {
+    background-color: whitesmoke;
+    color: black;
+}
+
+#featured-article-div h1 {
+    font-size: x-large;
+    color: darkgoldenrod;
+    font-family:cursive;
+}
+
+#featured-article-div h4 {
+    font-size: small;
+}
+
+
+#navbar ul li{
+    display: inline;
+    text-align: left;
+    font-family: "Courier New";
+    font-weight: bold;
+    box-sizing: border-box;
+    margin : 0 2px;
+}
+
+.userblock {
+    /* float : right; */
+    top:0;
+    right:0;
+    color : green;
+    position: absolute; 
+    overflow: hidden;
+    font-size: medium;
+    margin: 5px 0 0 0;
+    padding:0;
+    box-sizing: border-box;
+    z-index: 55;
+    width:85px;
+}
+
+.userblock span {
+	background-color : black;
+	border-radius : 5px;
+	border : solid 1px white;
+	padding : 0 2px 0 2px;
+}
+
+#navbar ul a{
+    margin : 0;
+    border-radius: 10px;
+    padding : 5px 5px;
+    font-size: large;
+    text-decoration: none;
+    color : darkgray;
+    background-color: rgba(0,0,0,0);
+    transition: background-color ease-in-out 0.2s;
+    -moz-transition: background-color ease-in-out 0.2s;
+    -o-transition: background-color ease-in-out 0.2s;
+    -ms-transition: background-color ease-in-out 0.2s;
+    -webkit-transition: background-color ease-in-out 0.2s;
+}
+
+#navbar ul a:hover{
+    color : white;
+}
+
+#navbar ul a:active{
+    color : gold;
+}
+
+
+#navbar ul {
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    text-align: left;
+    display : inline;
+    width: auto;
+}
+
+#navbar {
+    margin : 0;
+    box-sizing: border-box;
+    padding : 10px 0 10px 0;
+    height : auto;
+    /*box-shadow : 0px 3px 4px 0px black;*/
+    /*background : gold;
+    background : linear-gradient(to right, gold, darkgoldenrod);
+    background : -o-linear-gradient(to right, gold, darkgoldenrod);
+    background : -ms-linear-gradient(to right, gold, darkgoldenrod);
+    background : -moz-linear-gradient(to right, gold, darkgoldenrod);
+    background : -ms-linear-gradient(to right, gold, darkgoldenrod);*/
+    /*opacity: 0.8;*/
+    /*background-image : url(8_55_Pro_edited_font_harlow_solid_italic.jpg);*/
+}
+
+#search-form {
+    margin : 5px 0 0 0;
+    padding:0;
+}
+
+#searchbox {
+    outline: none;
+    font-family : "Courier New";
+    color : white;
+    background-color : black;
+    font-size : small;
+    border : solid 2px rgba(255,255,255,0.6);
+    padding : 2px 15px;
+    border-radius : 10px;
+    width: auto;
+    /*width : auto;*/
+    margin : 0 0 5px 0;
+    width: 400px;
+}
+
+#searchbox:focus {
+    box-shadow : 1px 1px 4px 1px white;
+}
+
+/* Slideshow container */
+
+.mySlides {
+    display:none;
+}
+
+
+.slideshow-container {
+  width: 100%;
+  position: relative;
+display: inline-block;
+    height : 100vh;
+}
+
+
+/* Caption text */
+.s-text {
+  display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: xx-large;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.8);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 140px 0 0 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.s-fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+    
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+#top-right-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 5px 0 0;
+    padding: 0 5px 0 0;
+    box-sizing: border-box;
+    text-align: right;
+    display: block;
+}
+#top-right-menu p{
+    top: 0;
+    margin:0;
+    padding: 0;
+}
+
+#contactform, #orderform{
+    font-size: small;
+    margin:10px;
+}
+
+#orderform label, #orderform input[type="text"], .userform input[type="number"] {
+    color: black;
+    background-color: white;
+}
+
+.remove-cart-item-button {
+    outline: none;
+    border: 1px solid gray;
+    color: white;
+    font-size: small;
+    font-family: "Courier New";
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 25px;
+}
+.remove-cart-item-button:hover {
+    color:gray;
+    background-color: white;
+}
+
+.remove-cart-item-button:active {
+    color:white;
+    background-color: gray;
+}
+
+.disappear {
+	display : none;
+}
+
+.gold-line {
+    border-bottom: 4px solid rgb(206,155,4);
+    width: 20%;
+    display: inline-block;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+.gold-line ~ div {
+    border-top: 4px solid rgba(206,155,4, 0.5);
+    width: 8%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#home-down-arrow {
+    width : 100%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 10em;
+}
+
+#home-down-arrow a{
+    display: inline-block;
+    color: gray;
+    font-size: 4em;
+}
+/*<link rel="stylesheet" type="text/css" href="stylesheetbig.css" media="only screen and (min-width:769px), (min-device-width:769px)"/>
+    <link rel="stylesheet" type="text/css" href="stylesheetbig.css" media="only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width:769px)"/>
+    <link rel="stylesheet" type="text/css" href="stylesheetsmall.css" media="only screen and (max-width:768px), (max-device-width:769px)"/>
+    <link rel="stylesheet" type="text/css" href="stylesheetsmall.css" media="only screen and (-webkit-min-device-pixel-ratio: 2) and (min-device-width:769px)"/>*/
+
+/*main product page*/
+#main-product-div {
+    font-size: medium;
+}
+#main-product-div ul {
+    list-style-type:none;
+    padding:0;margin:0;
+}
+#main-product-div ul li{
+    display:inline-block;
+    padding:0;margin:0;
+}
+#main-product-img {
+    width : 300px;
+    height : 300px;
+}
+
+#main-product-size, #main-product-qty, #main-product-add-cart {
+    width: 100%;
+}
+
+.product-img-thumb {
+    width : 40px;
+    height : 40px;
+    display:inline-block;
+    padding:0;
+    margin:0 2px 0 2px;
+    cursor : pointer;
+}
+
+#product-img-thumb-ul li {
+    border: 1px solid black;
+    margin: 1px;
+}
+
+#product-img-thumb-ul li:hover {
+    border: 1px solid goldenrod;
+}
+
+#product-table-div{
+    font-family:verdana;
+    letter-spacing:1.5px;
+}
+
+#product-table-div td{
+    text-align: left;
+    padding : 2px 10px 10px 0;
+}
+#product-table-div table {
+    margin: 0 0 10px 0;
+}
+
+@media only screen and (max-width:768px), only screen and (max-device-width:768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:768px){
+    
+    .col-cust-right {
+        text-align: left;
+    }
+    /*main product page*/
+    #main-product-img {
+        width : 250px;
+        height : 250px;
+    }
+    
+    .product-list-div img{
+        width: 180px;
+        height: 180px;
+    }
+    #featured-store-item-div {
+        font-size: medium;
+    }
+    
+    #featured-store-item-div table * {
+        font-size: medium;
+    }
+    
+    #featured-store-item-div img{
+        width: 200px;
+        height: auto;
+    }
+    
+    .audio-list-div ul li{
+        width: 400px;
+        max-width:100%;
+    }
+    .text {
+        font-size: x-large;
+    }
+    
+    /*.slide-div-1 {
+        background-image: url(../images/software.jpg);
+        background-size: cover;
+        height:160px;
+    }
+
+    .slide-div-2 {
+        background-image: url(../images/art.jpg);
+        background-size: cover;
+        height:160px;
+    }
+
+    .slide-div-3 {
+        background-image: url(../images/dna.jpg);
+        background-size: cover;
+        height:160px;
+    }*/
+}
+
+@media only screen and (max-width:480px), only screen and (max-device-width:480px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width:480px){
+    
+    /*.slide-div-1 {
+        background-image: url(../images/software.jpg);
+        background-size: cover;
+        height:120px;
+    }
+
+    .slide-div-2 {
+        background-image: url(../images/art.jpg);
+        background-size: cover;
+        height:120px;
+    }
+
+    .slide-div-3 {
+        background-image: url(../images/dna.jpg);
+        background-size: cover;
+        height:120px;
+    }*/
+    
+    /*main product page*/
+    #main-product-img {
+        width : 200px;
+        height : 200px;
+    }
+    .product-img-thumb {
+        width : 25px;
+        height : 25px;
+    }
+    
+    #page-header #page-logo {
+        text-align: center;
+    }
+
+    #page-header #page-logo a{
+        font-size: large;
+    }
+
+    #handle {   
+        display : block;
+        vertical-align: middle;
+    }
+
+    #handle img {
+        cursor: pointer;
+        padding : 0;
+        box-sizing: border-box;
+        float: left;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+    }
+
+        /*.anim {
+            min-height: 12em;
+        }*/
+
+    #navbar {
+        margin: 0;
+        padding : 0;
+        box-sizing: border-box;
+
+    }
+
+    #navbar ul {
+        overflow: hidden;
+        margin : 0;
+        text-align: center;
+        padding : 0;
+        display: block;
+        height:0;
+        background : rgba(0,0,0,1);
+        width: 100%;
+        max-width: 100%;
+        position: absolute;
+        float: left;
+        border-radius: 0 0 10px 10px;
+        list-style-type: disc;
+    }
+
+    #navbar ul li{
+        overflow: hidden;
+        margin : 0; 
+        text-align: center;
+    }
+
+
+    #navbar ul a{
+        display: block;
+        overflow: hidden;
+        font-size: medium;
+        padding: 5px;
+    }
+
+    #orderform label, #contactform label, input[type="text"], textarea, .userform input[type="number"] {
+        width: 240px;
+        max-width: 100%;
+    }
+
+    #contactform, #orderform{
+        font-size: small;
+
+    }
+    .userform span {
+        font-size: 1em;
+    }
+
+    #userform-div-cover h3, #userform-div-cover h4, #poetry-h4 {
+        font-size: large;
+    }
+
+    #userform-div-cover p {
+        font-size: x-small;
+    }
+
+    .userform input[type="text"], .userform textarea, .userform input[type="password"], .userform input[type="number"], .rform {
+
+        width: 240px;
+        max-width: 100%;
+    }
+
+    #searchbox {
+        width: auto;
+    }
+
+    .audio-list-div {
+        font-size: x-small;
+        width: 100%;
+    }
+
+
+    .audio-list-div ul li{
+        width: 240px;
+        max-width: 100%;
+    }
+
+
+    #maincontent p {
+        font-size: small;
+    }
+
+
+    .audio-play-div > div {
+        max-width: 100%;
+    }
+
+    .audio-play-div {
+        /*width: 250px;*/
+        max-width: 100%;
+    }
+
+     #audio-player {
+        /* width: 200px; */
+        background-color: black;
+        color: gold;
+        max-width: 100%;
+    }
+
+    #contact-div h3{
+        font-size: medium;
+    }
+
+    #featured-store-item-div img{
+        width: 140px;
+        height: auto;
+    }
+    #featured-store-item-div table * {
+        font-size: small;
+    }
+    .text {
+            font-size: medium;
+    }
+
+    #poetry-h4 {
+        margin: 50px 0 50px 0;
+    }
+    
+
+    #featured-article-div h1 {
+        font-size: large;
+    }
+    #featured-article-div h4 {
+        font-size: small;
+    }
+    #cart-items-div table tr td, #payment-info-div table tr td, #payment-info-div table tr th {
+        padding: 5px;
+        text-align: center;
+    }
+    /*#cart-items-div {
+        font-size: x-small;
+    }*/
+    .cart-image-class {
+        display: none;
+    }
+    /*#cart-items-div table, #payment-info-div table {
+        width: 300px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }*/
+    .remove-cart-item-button {
+        font-size: small;
+    }
+    /*#cart-table-head {
+        font-size: small;
+    }*/
+    .product-list-div img{
+        width: 120px;
+        height: 120px;
+    }
+    #cust-info-div label{
+        width: 240px;
+    }
+    #home-down-arrow a{
+        font-size: 3em;
+    }
+    #title-div h3{
+        font-size: large;
+    }
+    .s-text {
+      font-size: x-large;
+    }
+    .col-cust-right {
+        text-align: left;
+    }
+
+}
